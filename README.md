@@ -26,9 +26,9 @@ Display all the candidates in cards in the homepage with the picture + name + su
 ## Iteration 2
 Create a form and the proper method to add new candidates to our list.
 
-# Iteration 3
+## Iteration 3
 Create a button to display a card with a random candidate. 
 This card will include two buttons: 'Like' and 'Next'. When we click in 'Like', we will update the 'numberOfLikes' + 1 and we will display a new contact. If we click 'Next' we will update the 'numberOfNexts' + 1 and we will display a new contact.
 
-# Extra resources
+## Extra resources
 [JSON fake server](http://learn.ironhack.com/#/learning_unit/4397)
