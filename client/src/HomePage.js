@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomePage = props => {
   return (
-    <div className="col-md-3">
+    <div className="col-md-3 col-sm-3 col-3 pre-scrollable">
       {props.isLoading ? (
         <img
           src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"

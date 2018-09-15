@@ -9,7 +9,7 @@ First, we need to install the json-server package. We will do it globally so we 
 
 Go to the terminal and inside the same folder where we have our .json, run the following code:
 
-`$ json-server --watch hackmatch.json --port 8000`
+`$ json-server --watch hackmatch.json --port 8000 --delay 1200` 
 
 Now we are ready to start doing requests to our new API, so go ahead and launch a GET request from Postman, you should see all the data we just paste on the hackmatch.json file.
 

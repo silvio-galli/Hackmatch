@@ -70,7 +70,7 @@ class Candidate extends React.Component {
   render() {
     if (this.state.isLoading) {
       return (
-        <div className="col-md-6">
+        <div className="col-md-6 col-sm-6 col-6">
           <h1>Candidate</h1>
           <img
             src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
