@@ -1,22 +1,25 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React from "react";
+import { Link } from "react-router-dom";
 
-class HomePage extends Component {
-  render() {
-    console.log("candidates", this.state.candodates);
-    return (
-      <div>
-        {this.state.candidates.map(c => (
-          <div className="row">
-            <div className="col-md-2">
-              <img src={c.picUrl} alt="" className="candidate-pic img-fluid" />
-            </div>
-            <div className="col-md-2">{c.name}</div>
+const HomePage = props => {
+  return (
+    <div className="col-md-3">
+      {props.isLoading ? (
+        <img
+          src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
+          alt=""
+        />
+      ) : (
+        props.candidates.map(c => (
+          <div key={c.id} className="text-left border-bottom">
+            <Link to={"/candidates/" + c.id}>
+              {c.name} {c.surname}
+            </Link>
           </div>
-        ))}
-      </div>
-    );
-  }
-}
+        ))
+      )}
+    </div>
+  );
+};
 
 export default HomePage;
