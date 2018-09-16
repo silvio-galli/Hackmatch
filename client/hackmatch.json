@@ -54,7 +54,8 @@
       "surname": "Reuther",
       "numberOfLikes": 0,
       "numberOfNexts": 0,
-      "picUrl": "https://media2.giphy.com/media/xT77XZrTKOxycjaYvK/200w.webp"
+      "picUrl": "https://media2.giphy.com/media/xT77XZrTKOxycjaYvK/200w.webp",
+      "numbersOfLikes": null
     },
     {
       "id": 8,
@@ -100,7 +101,7 @@
       "id": 13,
       "name": "Jessica",
       "surname": "Schulz",
-      "numberOfLikes": 8,
+      "numberOfLikes": 0,
       "numberOfNexts": 0,
       "picUrl": "https://media1.giphy.com/media/xJjs8eGVbjNYY/200w.webp"
     },
@@ -174,7 +175,8 @@
       "surname": "Walsh",
       "numberOfLikes": 0,
       "numberOfNexts": 0,
-      "picUrl": "https://media2.giphy.com/media/uTCAwWNtz7U2c/200.webp"
+      "picUrl": "https://media2.giphy.com/media/uTCAwWNtz7U2c/200.webp",
+      "numbersOfLikes": null
     },
     {
       "id": 23,
@@ -214,7 +216,8 @@
       "surname": "Johnson",
       "numberOfLikes": 0,
       "numberOfNexts": 0,
-      "picUrl": "https://media3.giphy.com/media/26FPCXdkvDbKBbgOI/200.webp"
+      "picUrl": "https://media3.giphy.com/media/26FPCXdkvDbKBbgOI/200.webp",
+      "numbersOfLikes": null
     },
     {
       "id": 28,
@@ -228,7 +231,7 @@
       "id": 29,
       "name": "Florian",
       "surname": "Müller",
-      "numberOfLikes": 14,
+      "numberOfLikes": 0,
       "numberOfNexts": 0,
       "picUrl": "https://media3.giphy.com/media/3o7btPYDFhb7rNANqw/200.webp"
     },
@@ -238,7 +241,8 @@
       "surname": "Faust",
       "numberOfLikes": 0,
       "numberOfNexts": 0,
-      "picUrl": "https://media0.giphy.com/media/C23cMUqoZdqMg/200.webp"
+      "picUrl": "https://media0.giphy.com/media/C23cMUqoZdqMg/200.webp",
+      "numbersOfNexts": null
     },
     {
       "id": 31,
@@ -252,7 +256,7 @@
       "id": 32,
       "name": "Adiya",
       "surname": "Mohr",
-      "numberOfLikes": 7,
+      "numberOfLikes": 0,
       "numberOfNexts": 0,
       "picUrl": "https://media0.giphy.com/media/yoJC2COHSxjIqadyZW/200w.webp"
     },

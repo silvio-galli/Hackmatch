@@ -12,14 +12,13 @@ class Candidate extends React.Component {
   }
 
   componentDidMount() {
-    axios
-      .get("http://localhost:8000/candidates/" + this.props.match.params.id)
-      .then(response => {
-        this.setState({
-          candidate: response.data,
-          isLoading: false
-        });
+    axios.get("http://localhost:8000/candidates/" + this.props.match.params.id)
+    .then(response => {
+      this.setState({
+        candidate: response.data,
+        isLoading: false
       });
+    });
   }
 
   componentDidUpdate(prevProps) {
@@ -30,16 +29,13 @@ class Candidate extends React.Component {
           isLoading: true
         },
         () => {
-          axios
-            .get(
-              "http://localhost:8000/candidates/" + this.props.match.params.id
-            )
-            .then(response => {
-              this.setState({
-                candidate: response.data,
-                isLoading: false
-              });
+          axios.get("http://localhost:8000/candidates/" + this.props.match.params.id)
+          .then(response => {
+            this.setState({
+              candidate: response.data,
+              isLoading: false
             });
+          });
         }
       );
     }
@@ -53,16 +49,14 @@ class Candidate extends React.Component {
         candidate: candidate
       },
       () => {
-        axios
-          .patch(
-            "http://localhost:8000/candidates/" + this.state.candidate.id,
-            {
-              numberOfLikes: this.state.candidate.numberOfLikes + 1
-            }
-          )
-          .then(response => {
-            console.log("PATCH NUMBER OF LIKES -->", response.data);
-          });
+        axios.patch("http://localhost:8000/candidates/" + this.state.candidate.id,
+          {
+            numberOfLikes: this.state.candidate.numberOfLikes + 1
+          }
+        )
+        .then(response => {
+          console.log("PATCH NUMBER OF LIKES -->", response.data);
+        });
       }
     );
   }
@@ -81,7 +75,7 @@ class Candidate extends React.Component {
     }
 
     return (
-      <div className="col-md-6">
+      <div className="col-md-6 col-sm-6 col-6">
         <h1>Candidate</h1>
         <img src={this.state.candidate.picUrl} alt="" />
         <h2>
