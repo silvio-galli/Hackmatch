@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Markus",
       "surname": "Heldrup",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media2.giphy.com/media/JIX9t2j0ZTN9S/200w.webp"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Dalina",
       "surname": "Weidinger",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media3.giphy.com/media/mlvseq9yvZhba/giphy.webp"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Tormod",
       "surname": "Flesjø",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media3.giphy.com/media/VkIet63SWUJa0/200.webp"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Nina",
       "surname": "Drüke",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media3.giphy.com/media/vFKqnCdLPNOKc/200.webp"
     },
@@ -36,23 +36,23 @@
       "id": 5,
       "name": "Ana",
       "surname": "Nikolova",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 1,
       "picUrl": "https://media3.giphy.com/media/1iu8uG2cjYFZS6wTxv/200w.webp"
     },
     {
       "id": 6,
       "name": "Yuki",
       "surname": "Sato",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 1,
       "picUrl": "https://media0.giphy.com/media/yFQ0ywscgobJK/giphy.webp"
     },
     {
       "id": 7,
       "name": "Tina",
       "surname": "Reuther",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media2.giphy.com/media/xT77XZrTKOxycjaYvK/200w.webp",
       "numbersOfLikes": null
@@ -69,31 +69,31 @@
       "id": 9,
       "name": "Nhan",
       "surname": "Nguyen",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 1,
       "picUrl": "https://media2.giphy.com/media/6uMqzcbWRhoT6/200.webp"
     },
     {
       "id": 10,
       "name": "Andrei",
       "surname": "Fitai",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 1,
       "picUrl": "https://media1.giphy.com/media/a34HjLEsKchWM/200w.webp"
     },
     {
       "id": 11,
       "name": "Katrin",
       "surname": "Aiko",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 1,
       "picUrl": "https://media1.giphy.com/media/MDJ9IbxxvDUQM/200w.webp"
     },
     {
       "id": 12,
       "name": "Nicole",
       "surname": "Jelonek",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media1.giphy.com/media/33OrjzUFwkwEg/giphy.webp"
     },
@@ -101,7 +101,7 @@
       "id": 13,
       "name": "Jessica",
       "surname": "Schulz",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media1.giphy.com/media/xJjs8eGVbjNYY/200w.webp"
     },
@@ -109,7 +109,7 @@
       "id": 14,
       "name": "Jason",
       "surname": "Simms",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media2.giphy.com/media/3oriO0OEd9QIDdllqo/200.webp"
     },
@@ -117,7 +117,7 @@
       "id": 15,
       "name": "Timothy",
       "surname": "Lebon",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media0.giphy.com/media/tT0wtdSJvE0Rq/200.webp"
     },
@@ -125,15 +125,15 @@
       "id": 16,
       "name": "Jennifer",
       "surname": "Nicholson",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 2,
       "picUrl": "https://media0.giphy.com/media/E0cyxhawhe9dm/200.webp"
     },
     {
       "id": 17,
       "name": "Katarzyna",
       "surname": "Roszak",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media2.giphy.com/media/Nm8ZPAGOwZUQM/200.webp"
     },
@@ -149,16 +149,16 @@
       "id": 19,
       "name": "Elizaveta",
       "surname": "Ragozina",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 2,
       "picUrl": "https://media1.giphy.com/media/l0MYNB04rBb51QNtC/giphy.webp"
     },
     {
       "id": 20,
       "name": "Astrid",
       "surname": "Varga",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 1,
       "picUrl": "https://media2.giphy.com/media/ND6xkVPaj8tHO/200.webp"
     },
     {
@@ -173,7 +173,7 @@
       "id": 22,
       "name": "Sean",
       "surname": "Walsh",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media2.giphy.com/media/uTCAwWNtz7U2c/200.webp",
       "numbersOfLikes": null
@@ -183,22 +183,22 @@
       "name": "Anita",
       "surname": "Samuel",
       "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfNexts": 1,
       "picUrl": "https://media2.giphy.com/media/t7MWRoExDRF72/200.webp"
     },
     {
       "id": 24,
       "name": "Elisa",
       "surname": "Merino",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 1,
       "picUrl": "https://media2.giphy.com/media/v6aOjy0Qo1fIA/200w.webp"
     },
     {
       "id": 25,
       "name": "Alina",
       "surname": "Kraft",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media1.giphy.com/media/ZH9MUTRHeLAaY/giphy.webp"
     },
@@ -206,7 +206,7 @@
       "id": 26,
       "name": "Cesar",
       "surname": "Vinken",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media3.giphy.com/media/3oEduVGyuRGuZXaqys/200w.webp"
     },
@@ -214,7 +214,7 @@
       "id": 27,
       "name": "Kaschief",
       "surname": "Johnson",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media3.giphy.com/media/26FPCXdkvDbKBbgOI/200.webp",
       "numbersOfLikes": null
@@ -223,7 +223,7 @@
       "id": 28,
       "name": "Michael",
       "surname": "Rotarius",
-      "numberOfLikes": 0,
+      "numberOfLikes": 2,
       "numberOfNexts": 0,
       "picUrl": "https://media1.giphy.com/media/10dU7AN7xsi1I4/giphy.webp"
     },
@@ -239,7 +239,7 @@
       "id": 30,
       "name": "Ojuna",
       "surname": "Faust",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media0.giphy.com/media/C23cMUqoZdqMg/200.webp",
       "numbersOfNexts": null
@@ -256,15 +256,15 @@
       "id": 32,
       "name": "Adiya",
       "surname": "Mohr",
-      "numberOfLikes": 0,
-      "numberOfNexts": 0,
+      "numberOfLikes": 1,
+      "numberOfNexts": 2,
       "picUrl": "https://media0.giphy.com/media/yoJC2COHSxjIqadyZW/200w.webp"
     },
     {
       "id": 33,
       "name": "Bhavana",
       "surname": "Venu",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media1.giphy.com/media/RQSuZfuylVNAY/200w.webp"
     },
@@ -272,7 +272,7 @@
       "id": 34,
       "name": "Haakon",
       "surname": "Dahl",
-      "numberOfLikes": 0,
+      "numberOfLikes": 1,
       "numberOfNexts": 0,
       "picUrl": "https://media0.giphy.com/media/8vQSQ3cNXuDGo/200w.webp"
     }

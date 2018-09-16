@@ -8,7 +8,13 @@ const Random = props => {
       <h2>
         {props.random.name} {props.random.surname}
       </h2>
+      <p>
+        <strong>Number of Likes:</strong> {props.random.numberOfLikes}
+        { " | " }
+        <strong>Number of Nexts:</strong> {props.random.numberOfNexts}
+        </p>
       <button onClick={props.handleClickOnRandom} name="like" disabled={props.disableButton}>Like</button>
+      {"  "}
       <button onClick={props.handleClickOnRandom} name="next" disabled={props.disableButton}>Next</button>
     </div>
   )

@@ -81,6 +81,11 @@ class Candidate extends React.Component {
         <h2>
           {this.state.candidate.name} {this.state.candidate.surname}
         </h2>
+        <p>
+          <strong>Number of Likes:</strong> {this.state.candidate.numberOfLikes}
+          { " | " }
+          <strong>Number of Nexts:</strong> {this.state.candidate.numberOfNexts}
+        </p>
         <button onClick={this.handleLike}>Like</button>
       </div>
     );
