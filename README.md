@@ -31,3 +31,7 @@ This card will include two buttons: 'Like' and 'Next'. When we click in 'Like', 
 
 ## Extra resources
 [JSON fake server](http://learn.ironhack.com/#/learning_unit/4397)
+
+#### PS
+I added a `REACT_APP_GIPHY_API_KEY` into a `.env` file to grab a random gif when adding a new element.
+If you don't have an API key the image for new element will be always the same
