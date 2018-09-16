@@ -32,8 +32,9 @@ class NewCandidate extends React.Component {
     this.setState({
       isSubmitting: true
     })
-    let url = "https://api.giphy.com/v1/gifs/random?api_key=" + process.env.REACT_APP_GIPHY_API_KEY + "&tag=cat";
-    axios.get(url)
+    if (process.env.REACT_APP_GIPHY_API_KEY) {
+      let url = "https://api.giphy.com/v1/gifs/random?api_key=" + process.env.REACT_APP_GIPHY_API_KEY + "&tag=cat";
+      axios.get(url)
       .then(response => {
         console.log("giphy response -->", response.data)
         let pic = response.data.data.images.fixed_width.url
@@ -44,16 +45,34 @@ class NewCandidate extends React.Component {
           numberOfNexts: 0,
           picUrl: pic
         })
-          .then(response => {
-            console.log(response.data)
-            this.setState({
-              redirect: true,
-              newCandidateId: response.data.id
-            }, () => {
-              this.props.handleAfterSubmit(response.data)
-            })
+        .then(response => {
+          console.log(response.data)
+          this.setState({
+            redirect: true,
+            newCandidateId: response.data.id
+          }, () => {
+            this.props.handleAfterSubmit(response.data)
           })
+        })
       })
+    } else {
+      axios.post("http://localhost:8000/candidates", {
+        name: capitalize(this.state.name),
+        surname: capitalize(this.state.surname),
+        numberOfLikes: 0,
+        numberOfNexts: 0,
+        picUrl: "https://media3.giphy.com/media/vFKqnCdLPNOKc/200.webp"
+      })
+      .then(response => {
+        console.log(response.data)
+        this.setState({
+          redirect: true,
+          newCandidateId: response.data.id
+        }, () => {
+          this.props.handleAfterSubmit(response.data)
+        })
+      })
+    }
   }
 
   render() {
