@@ -2,20 +2,19 @@
 # Hackmatch
 ##  Setup
 
-
 First, we need to install the json-server package. We will do it globally so we can run it from anywhere in our laptops. Run the following code in your terminal: 
 
 `$ npm install -g json-server`
 
 Go to the terminal and inside the same folder where we have our .json, run the following code:
 
-`$ json-server --watch hackmatch.json --port 8000 --delay 1200` 
+`$ json-server --watch hackmatch.json --port 8000 --delay 1200`
 
 Now we are ready to start doing requests to our new API, so go ahead and launch a GET request from Postman, you should see all the data we just paste on the hackmatch.json file.
 
 GET http://localhost:8000/candidates
 
-The next step you you already know how it works:
+The next step you already know how it works:
 
 `$ create-react-app hackmatch-app`
 
